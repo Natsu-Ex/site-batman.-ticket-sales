@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style: none;
+    color: black;
+}
+
+.container{
+    height: 85%;
+    width: 85%;
+    position: fixed;
+    margin-left: 6%;
+    margin-top: 3%;
+    background-color:grey;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 32px;
+    box-shadow: 32px 32px 64px #5a5a5a, -32px -32px 64px #a6a6a6;
+    
+}
+
+.input{
+    font-family: oxanium, cursive;
+    background-color: grey;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: whitesmoke;
+    padding: 15px 5px 10px 20px;
+    margin: 12px;
+    border-radius: 20px;
+    background: gray;
+    box-shadow: inset 12px 12px 12px #5a5a5a, inset -12px -12px 12px #a6a6a6;
+}
+
+h1{
+    font-family: oxanium, cursive;
+    border: none;
+    outline: none;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    background-color: grey;
+
+}
+
+#button{
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    outline: none;
+    color: black;
+    padding: 12px 15px 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    background: gray;
+    box-shadow: inset 12px 12px 12px #5a5a5a, inset -12px -12px 12px #a6a6a6;
+    cursor: pointer;
+    background: linear-gradient(-45deg, #898989, #737373);
+}
+
+#span1{
+    position: absolute;
+    bottom: 16px;
+    font-family: 'Oxanium', cursive;
+    font-size:small;
+    text-shadow: 1px 1px 2px white;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+}
+
+#span2{
+    position: absolute;
+    bottom: 1px;
+    font-family: 'Oxanium', cursive;
+    font-size:small;
+    text-shadow: 1px 1px 2px white;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+}
+
+#nome{
+    background-color: grey;
+
+    
+}
+
+#peso{
+    background-color: grey;
+}
+
+#altura{
+    background-color: grey;
+}
+
+#resultado{
+    font-family: oxanium, cursive;
+    background-color: grey;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: whitesmoke;
+    padding: 10px 15px 10px 15px;
+    margin: 12px;
+    border-radius: 20px;
+    background: gray;
+    box-shadow: inset 12px 12px 12px #5a5a5a, inset -12px -12px 12px #a6a6a6;
+}
